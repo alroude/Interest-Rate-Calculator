@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Login / Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Interest Calculator</h1>
+        <div class="form-wrapper">
+            <div id="form">
+                <form>
+                    <input type="text" id="principal" placeholder="Enter principal amount" required><br>
+                    <input type="text"  id="years" placeholder="Enter Years" required><br>
+                    <input type="text" id="rate" placeholder="Enter Rate of Interest" required><br>
+                    <button type="button" onclick="calculate()">Calculate</button>
+                </form>
+                <div class="result-section">
+                    <h2>Amount: Ksh<span id="result"></span></h2>
+                </div>
+            </div>
+            <div id="results-section">
+
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
