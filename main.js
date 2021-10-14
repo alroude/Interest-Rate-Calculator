@@ -6,7 +6,7 @@ function calculate() {
     var r = 0;
     var simpleInterest = 0.0;
 
-    p = parseInt(document.getElementById("principal").value.toLocaleString);
+    p = parseInt(document.getElementById("principal").value).toLocaleString;
     y = parseInt(document.getElementById("years").value);
     r = parseFloat(document.getElementById("rate").value);
 
